@@ -1,0 +1,12 @@
+#игнорирование каталога build
+/build/*
+#Все файлы .jar кроме module2.jar
+*.jar
+!/src/main/modules/module2/build/module2.jar
+#исключаем application-local.properties
+/src/main/resouces/application-local.properties
+#Игнорируем папку idea
+/.idea/*
+#Игнорируем папку idea copy кроме workspace.xml
+/.idea_copy/*
+!/.idea_copy/workspace.xml
